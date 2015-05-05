@@ -1,0 +1,36 @@
+<html>
+<h3>Halve finale</h3>
+<table>
+    <tr>
+        <th>#</th>
+        <th>datum</th>
+        <th>tijd</th>
+        <th>plaats</th>
+        <th>thuis</th>
+        <th>uit</th>
+        <th>rust</th>
+        <th>eind</th>
+        <th>toto</th>
+    </tr>
+    <tr data-ng-repeat="match in semi">
+        <td>{{match.num}}</td>
+        <td>{{match.date}}</td>
+        <td>{{match.time}}</td>
+        <td>{{match.venue}}</td>
+        <td>{{match.home}}</td>
+        <td>{{match.away}}</td>
+        <td>
+            <input type="number" min="0" max="99"></input> -
+            <input type="number" min="0" max="99"></input>
+        </td>
+        <td>
+            <input type="number" min="0" max="99"></input> -
+            <input type="number" min="0" max="99"></input>
+        </td>
+        <td>
+            <input type="number" min="1" max="3"></input>
+        </td>
+    </tr>
+</table>
+
+</html>
