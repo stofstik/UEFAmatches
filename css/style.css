@@ -1,9 +1,44 @@
+/*Pre*/
+html{
+    font-size:1rem;
+    
+}
+body{
+    font-size:100%;
+}
 h1 {
     text-align: center
 }
 
 h2 {
     text-align: center
+}
+
+/*Specific*/
+
+nav{
+    
+}
+
+nav ul{
+   
+     text-align:center;
+    
+    
+}
+
+nav ul li{
+    font-size:20px;
+    display:inline;
+    text-decoration:none;
+    margin:0 5px;
+    
+}
+
+nav ul li a{
+    
+    color:#000;
+    
 }
 
 .table-header {
