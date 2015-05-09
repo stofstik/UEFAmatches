@@ -77,6 +77,36 @@ laurierboomApp.value('appValCountries', [
         name: "F1",
         group: "F",
         stance: 0
+    },
+    {
+        name: "A2",
+        group: "A",
+        stance: 0
+    },
+    {
+        name: "B2",
+        group: "B",
+        stance: 0
+    },
+    {
+        name: "C2",
+        group: "C",
+        stance: 0
+    },
+    {
+        name: "D2",
+        group: "D",
+        stance: 0
+    },
+    {
+        name: "E2",
+        group: "E",
+        stance: 0
+    },
+    {
+        name: "F2",
+        group: "F",
+        stance: 0
     }
 ]);
 
