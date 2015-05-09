@@ -39,14 +39,18 @@ nav ul li a {
     background-color: darkgrey;
 }
 
-.table-item-text-groupstage-name {
+.table-item-groupstage {
+    width: 7rem;
+}
+
+.table-item-groupstage-text-name {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     min-width: 0;
 }
 
-.table-item-input-groupstage-stance {
+.table-item-groupstage-input-stance {
     display: inline;
 }
 
