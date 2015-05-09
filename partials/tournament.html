@@ -10,18 +10,35 @@
         <th>Groep E</th>
         <th>Groep F</th>
     </tr>
-    <tr data-ng-repeat="country in countries.groupA">
-        <td>{{country}}</td>
+    <tr data-ng-repeat="country in teams">
+        <td>{{country.groupA}}
+            <input style="float:right" type="number" min="1" max="4" />
+        </td>
+        <td>{{country.groupB}}
+            <input style="float:right" type="number" min="1" max="4" />
+        </td>
+        <td>{{country.groupC}}
+            <input style="float:right" type="number" min="1" max="4" />
+        </td>
+        <td>{{country.groupD}}
+            <input style="float:right" type="number" min="1" max="4" />
+        </td>
+        <td>{{country.groupE}}
+            <input style="float:right" type="number" min="1" max="4" />
+        </td>
+        <td>{{country.groupF}}
+            <input style="float:right" type="number" min="1" max="4" />
+        </td>
     </tr>
 
 </table>
-<h2 class="table-header">Achtstefinales</h2>
-<h2 class="table-header">Kwartfinales</h2>
+<h2 class="table-header ">Achtstefinales</h2>
+<h2 class="table-header ">Kwartfinales</h2>
 
-<h2 class="table-header">Halve finales</h2>
-<div align="justify">
-    <h2 class="table-header">3e plaats</h2>
-    <h2 class="table-header">Finale</h2>
+<h2 class="table-header ">Halve finales</h2>
+<div align="justify ">
+    <h2 class="table-header ">3e plaats</h2>
+    <h2 class="table-header ">Finale</h2>
 </div>
 
 </html>

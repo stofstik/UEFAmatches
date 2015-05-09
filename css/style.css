@@ -26,10 +26,3 @@ h2 {
 th {
     text-align: left
 }
-
-td {
-    text-align: left;
-    width: 150px;
-    overflow: hidden;
-    white-space: nowrap;
-}
