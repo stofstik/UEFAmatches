@@ -6,6 +6,38 @@ h2 {
     text-align: center
 }
 
-table {
-    text-align: center
+.table-header {
+    color: white;
+    background-color: darkgrey;
+}
+
+.table-groupstandings-row {}
+
+.table-item-country {
+    width: 150px;
+}
+
+.table-item-text-groupstage-name {
+    display: inline;
+    white-space: nowrap;
+    width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-item-input-groupstage-stance {
+    display: inline;
+}
+
+.table-item-groupstage {}
+
+th {
+    text-align: left
+}
+
+td {
+    text-align: left;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
 }

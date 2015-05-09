@@ -3,6 +3,13 @@ var laurierboomApp = angular.module('laurierboom-pool', ['ngRoute']);
 // define the route
 laurierboomApp.config(function ($routeProvider) {
     $routeProvider
+        .when('/', {
+            controller: 'MatchesController',
+            templateUrl: 'partials/tournament.html'
+        }).when('/tournament', {
+            controller: 'MatchesController',
+            templateUrl: 'partials/tournament.html'
+        })
         .when('/groupfase', {
             controller: 'MatchesController',
             templateUrl: 'partials/groupfase.html'
