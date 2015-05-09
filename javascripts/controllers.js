@@ -13,36 +13,108 @@ laurierboomApp.controller('MatchesController', function ($scope, $http, appValCo
 // We need to learn more about ngRepeat and custom directives!
 laurierboomApp.value('appValTeams', {
     team1: {
-        groupA: 'Frankrijk',
-        groupB: 'Bosnia & Herzgovina',
-        groupC: 'C1',
-        groupD: 'D1',
-        groupE: 'E1',
-        groupF: 'F1'
+        groupA: {
+            name: 'Frankrijk',
+            groupstance: 0
+        },
+        groupB: {
+            name: 'B1',
+            groupstance: 0
+        },
+        groupC: {
+            name: 'C1',
+            groupstance: 0
+        },
+        groupD: {
+            name: 'D1',
+            groupstance: 0
+        },
+        groupE: {
+            name: 'E1',
+            groupstance: 0
+        },
+        groupF: {
+            name: 'F1',
+            groupstance: 0
+        }
     },
     team2: {
-        groupA: 'A2',
-        groupB: 'B2',
-        groupC: 'Some country with a very long name',
-        groupD: 'D2',
-        groupE: 'E2',
-        groupF: 'F2'
+        groupA: {
+            name: 'A2',
+            groupstance: 0
+        },
+        groupB: {
+            name: 'B2',
+            groupstance: 0
+        },
+        groupC: {
+            name: 'C2',
+            groupstance: 0
+        },
+        groupD: {
+            name: 'D2',
+            groupstance: 0
+        },
+        groupE: {
+            name: 'E2',
+            groupstance: 0
+        },
+        groupF: {
+            name: 'F2',
+            groupstance: 0
+        }
     },
     team3: {
-        groupA: 'A3',
-        groupB: 'B3',
-        groupC: 'C3',
-        groupD: 'D3',
-        groupE: 'E3',
-        groupF: 'F4'
+        groupA: {
+            name: 'A3',
+            groupstance: 0
+        },
+        groupB: {
+            name: 'B3',
+            groupstance: 0
+        },
+        groupC: {
+            name: 'Wow some of these countries have really long names!',
+            groupstance: 0
+        },
+        groupD: {
+            name: 'D3',
+            groupstance: 0
+        },
+        groupE: {
+            name: 'E3',
+            groupstance: 0
+        },
+        groupF: {
+            name: 'F3',
+            groupstance: 0
+        }
     },
     team4: {
-        groupA: 'A4',
-        groupB: 'B4',
-        groupC: 'C4',
-        groupD: 'All these columns should be the same size :)',
-        groupE: 'E4',
-        groupF: 'Preferably justified to page width'
+        groupA: {
+            name: 'A4',
+            groupstance: 0
+        },
+        groupB: {
+            name: 'B4',
+            groupstance: 0
+        },
+        groupC: {
+            name: 'C4',
+            groupstance: 0
+        },
+        groupD: {
+            name: 'D4',
+            groupstance: 0
+        },
+        groupE: {
+            name: 'E4',
+            groupstance: 0
+        },
+        groupF: {
+            name: 'F4',
+            groupstance: 0
+        }
     }
 });
 

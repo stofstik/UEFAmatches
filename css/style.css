@@ -1,11 +1,13 @@
 /*Pre*/
-html{
-    font-size:1rem;
-    
+
+html {
+    font-size: 1rem;
 }
-body{
-    font-size:100%;
+
+body {
+    font-size: 100%;
 }
+
 h1 {
     text-align: center
 }
@@ -13,32 +15,23 @@ h1 {
 h2 {
     text-align: center
 }
-
 /*Specific*/
 
-nav{
-    
+nav {}
+
+nav ul {
+    text-align: center;
 }
 
-nav ul{
-   
-     text-align:center;
-    
-    
+nav ul li {
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+    margin: 0 5px;
 }
 
-nav ul li{
-    font-size:20px;
-    display:inline;
-    text-decoration:none;
-    margin:0 5px;
-    
-}
-
-nav ul li a{
-    
-    color:#000;
-    
+nav ul li a {
+    color: #000;
 }
 
 .table-header {
@@ -46,16 +39,29 @@ nav ul li a{
     background-color: darkgrey;
 }
 
-.table-item-text-groupstage-name {
-    white-space: nowrap;
-    width: 12em;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.table-table-groupstage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.table-item-groupstage {
+    display: inline-block;
+    width: 8rem;
+    padding-right: 0.5rem;
     border: 1px solid #000000;
 }
 
-.table-item-input-groupstage-stance {
-    display: inline;
+.table-item-groupstage-text-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 6.5em;
+}
+
+.table-item-groupstage-input-stance {
+    width: 1.5rem;
+    float: right;
 }
 
 th {
