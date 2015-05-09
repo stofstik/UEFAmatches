@@ -16,7 +16,7 @@ laurierboomApp.controller('MatchesController', function ($scope, $http, appValCo
     var country = {
         name: "",
         group: "",
-        groupStance ""
+        groupStance: ""
     }
 
 
@@ -47,44 +47,38 @@ laurierboomApp.controller('MatchesController', function ($scope, $http, appValCo
 
 
 
-laurierboomApp.value('appValCountries', {
-    groupA: {
-        team1: 'Frankrijk',
-        team2: 'A2',
-        team3: 'A3',
-        team4: 'A4'
+laurierboomApp.value('appValCountries', [
+    {
+        name: "Frankrijk",
+        group: "A",
+        stance: 0
     },
-    groupB: {
-        team1: 'Bosnia and Herzegovina',
-        team2: 'Nederland',
-        team3: 'B3',
-        team4: 'B4'
+    {
+        name: "B1",
+        group: "B",
+        stance: 0
     },
-    groupC: {
-        team1: 'C1',
-        team2: 'C2',
-        team3: 'C3',
-        team4: 'C4'
+    {
+        name: "C1",
+        group: "C",
+        stance: 0
     },
-    groupD: {
-        team1: 'D1',
-        team2: 'D2',
-        team3: 'D3',
-        team4: 'D4'
+    {
+        name: "D1",
+        group: "D",
+        stance: 0
     },
-    groupE: {
-        team1: 'E1',
-        team2: 'E2',
-        team3: 'E3',
-        team4: 'E4'
+    {
+        name: "E1",
+        group: "E",
+        stance: 0
     },
-    groupF: {
-        team1: 'F1',
-        team2: 'F2',
-        team3: 'F3',
-        team4: 'F4'
-    },
-});
+    {
+        name: "F1",
+        group: "F",
+        stance: 0
+    }
+]);
 
 laurierboomApp.value('AppValGroupA', ['A1', 'A2', 'A3', 'A4']);
 laurierboomApp.value('AppValGroupB', ['B1', 'B2', 'B3', 'B4']);

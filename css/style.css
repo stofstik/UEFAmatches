@@ -11,25 +11,17 @@ h2 {
     background-color: darkgrey;
 }
 
-.table-groupstandings-row {}
-
-.table-item-country {
-    width: 150px;
-}
-
 .table-item-text-groupstage-name {
-    display: inline;
     white-space: nowrap;
-    width: 70px;
+    width: 12em;
     overflow: hidden;
     text-overflow: ellipsis;
+    border: 1px solid #000000;
 }
 
 .table-item-input-groupstage-stance {
     display: inline;
 }
-
-.table-item-groupstage {}
 
 th {
     text-align: left
