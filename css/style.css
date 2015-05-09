@@ -46,6 +46,7 @@ nav ul li a {
 }
 
 .table-item-groupstage {
+    display: inline-block;
     width: 8rem;
     padding-right: 0.5rem;
     border: 1px solid #000000;
