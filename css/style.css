@@ -61,3 +61,7 @@ nav ul li a{
 th {
     text-align: left
 }
+td{
+    table-layout: fixed;
+ min-width:320px;   
+}
