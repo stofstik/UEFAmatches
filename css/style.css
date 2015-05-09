@@ -42,12 +42,11 @@ nav ul li a {
 .table-table-groupstage {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 95%;
 }
 
 .table-item-groupstage {
     display: inline;
-    width: 7rem;
 }
 
 .table-item-groupstage-text-name {
@@ -55,8 +54,17 @@ nav ul li a {
     overflow: hidden;
     text-overflow: ellipsis;
     float: left;
-    width: 4rem;
-    font-size: 1rem;
+    width: 4.875rem;
+    font-size: 0.9rem;
+}
+
+.table-item-overview-groupstage-text-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    width: 5.875rem;
+    font-size: 0.9rem;
 }
 
 .table-item-groupstage-input-stance {
@@ -67,8 +75,4 @@ nav ul li a {
 
 th {
     text-align: left
-}
-
-td {
-    min-width: 90px;
 }

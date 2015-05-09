@@ -1,0 +1,52 @@
+<h1>OVERZICHT</h1>
+
+<h2 class="table-header">Groepsfase</h2>
+<table class="table-table-groupstage">
+    <tr>
+        <th>Groep A</th>
+        <th>Groep B</th>
+        <th>Groep C</th>
+        <th>Groep D</th>
+        <th>Groep E</th>
+        <th>Groep F</th>
+    </tr>
+    <tr data-ng-repeat="country in teams">
+        <td>
+            <div class="table-item-groupstage">
+                <div class="table-item-overview-groupstage-text-name">{{country.groupA.name}}</div>
+                {{country.groupA.groupstance}}
+            </div>
+        </td>
+        <td>
+            <div class="table-item-groupstage">
+                <div class="table-item-overview-groupstage-text-name">{{country.groupB.name}}</div>
+                {{country.groupB.groupstance}}
+            </div>
+        </td>
+        <td>
+            <div class="table-item-groupstage">
+                <div class="table-item-overview-groupstage-text-name">{{country.groupC.name}}</div>
+                {{country.groupC.groupstance}}
+            </div>
+        </td>
+        <td>
+            <div class="table-item-groupstage">
+                <div class="table-item-overview-groupstage-text-name">{{country.groupD.name}}</div>
+                {{country.groupD.groupstance}}
+            </div>
+        </td>
+        <td>
+            <div class="table-item-groupstage">
+                <div class="table-item-overview-groupstage-text-name">{{country.groupE.name}}</div>
+                {{country.groupE.groupstance}}
+            </div>
+        </td>
+        <td>
+            <div class="table-item-groupstage">
+                <div class="table-item-overview-groupstage-text-name">{{country.groupF.name}}</div>
+                {{country.groupF.groupstance}}
+            </div>
+        </td>
+    </tr>
+
+</table>

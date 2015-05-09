@@ -44,7 +44,7 @@ laurierboomApp.value('appValTeams', {
             groupstance: 0
         },
         groupB: {
-            name: 'B2',
+            name: 'Nederland',
             groupstance: 0
         },
         groupC: {
@@ -74,7 +74,7 @@ laurierboomApp.value('appValTeams', {
             groupstance: 0
         },
         groupC: {
-            name: 'Wow some of these countries have really long names!',
+            name: 'Bosnia & Herzgovina',
             groupstance: 0
         },
         groupD: {
