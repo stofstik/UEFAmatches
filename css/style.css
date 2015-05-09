@@ -42,29 +42,33 @@ nav ul li a {
 .table-table-groupstage {
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 
 .table-item-groupstage {
-    
+    display: inline;
+    width: 7rem;
 }
 
 .table-item-groupstage-text-name {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    float:left;
-    font-size:1.4rem;
+    float: left;
+    width: 4rem;
+    font-size: 1rem;
 }
 
 .table-item-groupstage-input-stance {
-    width: 2.5rem;
+    width: 2rem;
     float: right;
-    font-size:1.4rem;
+    font-size: 1rem;
 }
 
 th {
     text-align: left
 }
-td{
- min-width:250px;   
+
+td {
+    min-width: 90px;
 }
