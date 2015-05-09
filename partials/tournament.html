@@ -1,7 +1,7 @@
 <html>
 
 <h2 class="table-header">Groepstanden</h2>
-<table>
+<table class="table-table-groupstage">
     <tr>
         <th>Groep A</th>
         <th>Groep B</th>
@@ -12,28 +12,28 @@
     </tr>
     <tr data-ng-repeat="country in teams">
         <td class="table-item-groupstage">
-            <div class="table-item-text-groupstage-name">{{country.groupA.name}}</div>
-            <input style="display: inline; float:right" type="number" min="1" max="4" data-ng-model="country.groupA.groupstance" />
+            <div class="table-item-groupstage-text-name">{{country.groupA.name}}</div>
+            <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupA.groupstance" />
         </td>
         <td class="table-item-groupstage">
-            <div class="table-item-text-groupstage-name">{{country.groupB.name}}</div>
-            <input style="display: inline; float:right" type="number" min="1" max="4" data-ng-model="country.groupB.groupstance" />
+            <div class="table-item-groupstage-text-name">{{country.groupB.name}}</div>
+            <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupB.groupstance" />
         </td>
         <td class="table-item-groupstage">
-            <div class="table-item-text-groupstage-name">{{country.groupC.name}}</div>
-            <input style="display: inline; float:right" type="number" min="1" max="4" data-ng-model="country.groupC.groupstance" />
+            <div class="table-item-groupstage-text-name">{{country.groupC.name}}</div>
+            <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupC.groupstance" />
         </td>
         <td class="table-item-groupstage">
-            <div class="table-item-text-groupstage-name">{{country.groupD.name}}</div>
-            <input style="display: inline; float:right" type="number" min="1" max="4" data-ng-model="country.groupD.groupstance" />
+            <div class="table-item-groupstage-text-name">{{country.groupD.name}}</div>
+            <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupD.groupstance" />
         </td>
         <td class="table-item-groupstage">
-            <div class="table-item-text-groupstage-name">{{country.groupE.name}}</div>
-            <input style="display: inline; float:right" type="number" min="1" max="4" data-ng-model="country.groupE.groupstance" />
+            <div class="table-item-groupstage-text-name">{{country.groupE.name}}</div>
+            <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupE.groupstance" />
         </td>
         <td class="table-item-groupstage">
-            <div class="table-item-text-groupstage-name">{{country.groupF.name}}</div>
-            <input style="display: inline; float:right" type="number" min="1" max="4" data-ng-model="country.groupF.groupstance" />
+            <div class="table-item-groupstage-text-name">{{country.groupF.name}}</div>
+            <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupF.groupstance" />
         </td>
     </tr>
 

@@ -74,7 +74,7 @@ laurierboomApp.value('appValTeams', {
             groupstance: 0
         },
         groupC: {
-            name: 'C3',
+            name: 'Wow some of these countries have really long names!',
             groupstance: 0
         },
         groupD: {
