@@ -40,11 +40,10 @@ nav ul li a {
 }
 
 .table-item-text-groupstage-name {
-    display: inline;
     white-space: nowrap;
-    width: 5rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    min-width: 0;
 }
 
 .table-item-input-groupstage-stance {
