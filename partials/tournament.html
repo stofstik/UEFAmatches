@@ -2,8 +2,6 @@
 <html>
 
 <div class="container-fluid">
-
-
     <h2 class="table-header">Groepstanden</h2>
     <div class="col-sm-6 col-md-4 col-lg-4">
         <h4>Groep A:</h4>
@@ -47,11 +45,112 @@
             <input style="float:right" type="number" min="1" max="4" />
         </ul>
     </div>
+</div>
 
+<div class="container-fluid">
+    <h2 class="table-header ">Achtstefinales</h2>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        37:
+        <div style="display:inline-block; vertical-align:middle ">
+            2A
+            <br /> 2C
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        38:
+        <div style="display:inline-block; vertical-align:middle ">
+            1B
+            <br /> 3A/C/D
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        39:
+        <div style="display:inline-block; vertical-align:middle ">
+            1D
+            <br /> 3B/E/F
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        40:
+        <div style="display:inline-block; vertical-align:middle ">
+            1B
+            <br /> 3A/C/D
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        41:
+        <div style="display:inline-block; vertical-align:middle ">
+            1C
+            <br /> 3B/E/F
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        42:
+        <div style="display:inline-block; vertical-align:middle ">
+            1F
+            <br /> 2E
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        43:
+        <div style="display:inline-block; vertical-align:middle ">
+            1E
+            <br /> 2D
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        44:
+        <div style="display:inline-block; vertical-align:middle ">
+            2B
+            <br /> 2F
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
 
 </div>
 
-<h2 class="table-header ">Achtstefinales</h2>
+
+
+<h2 class="table-header ">Kwartfinales</h2>
 <div>
     37:
     <div>
@@ -61,7 +160,6 @@
         <input type="text " />
     </div>
 </div>
-<h2 class="table-header "><span>Kwartfinales</span></h2>
 
 <h2>
     <span>
@@ -127,7 +225,7 @@
 </div>
 -->
 
-<!-- <table class="table-table-groupstage">
+<!-- <table class="table-table-groupstage ">
     <tr>
         <th>Groep A</th>
         <th>Groep B</th>
@@ -136,41 +234,41 @@
         <th>Groep E</th>
         <th>Groep F</th>
     </tr>
-    <tr data-ng-repeat="country in teams">
+    <tr data-ng-repeat="country in teams ">
         <td>
-            <div class="table-item-groupstage">
-                <div class="table-item-groupstage-text-name">{{country.groupA.name}}</div>
-                <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupA.groupstance" />
+            <div class="table-item-groupstage ">
+                <div class="table-item-groupstage-text-name ">{{country.groupA.name}}</div>
+                <input class="table-item-groupstage-input-stance " type="number " min="1 " max="4 " data-ng-model="country.groupA.groupstance " />
             </div>
         </td>
         <td>
-            <div class="table-item-groupstage">
-                <div class="table-item-groupstage-text-name">{{country.groupB.name}}</div>
-                <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupB.groupstance" />
+            <div class="table-item-groupstage ">
+                <div class="table-item-groupstage-text-name ">{{country.groupB.name}}</div>
+                <input class="table-item-groupstage-input-stance " type="number " min="1 " max="4 " data-ng-model="country.groupB.groupstance " />
             </div>
         </td>
         <td>
-            <div class="table-item-groupstage">
-                <div class="table-item-groupstage-text-name">{{country.groupC.name}}</div>
-                <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupC.groupstance" />
+            <div class="table-item-groupstage ">
+                <div class="table-item-groupstage-text-name ">{{country.groupC.name}}</div>
+                <input class="table-item-groupstage-input-stance " type="number " min="1 " max="4 " data-ng-model="country.groupC.groupstance " />
             </div>
         </td>
         <td>
-            <div class="table-item-groupstage">
-                <div class="table-item-groupstage-text-name">{{country.groupD.name}}</div>
-                <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupD.groupstance" />
+            <div class="table-item-groupstage ">
+                <div class="table-item-groupstage-text-name ">{{country.groupD.name}}</div>
+                <input class="table-item-groupstage-input-stance " type="number " min="1 " max="4 " data-ng-model="country.groupD.groupstance " />
             </div>
         </td>
         <td>
-            <div class="table-item-groupstage">
-                <div class="table-item-groupstage-text-name">{{country.groupE.name}}</div>
-                <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupE.groupstance" />
+            <div class="table-item-groupstage ">
+                <div class="table-item-groupstage-text-name ">{{country.groupE.name}}</div>
+                <input class="table-item-groupstage-input-stance " type="number " min="1 " max="4 " data-ng-model="country.groupE.groupstance " />
             </div>
         </td>
         <td>
-            <div class="table-item-groupstage">
-                <div class="table-item-groupstage-text-name">{{country.groupF.name}}</div>
-                <input class="table-item-groupstage-input-stance" type="number" min="1" max="4" data-ng-model="country.groupF.groupstance" />
+            <div class="table-item-groupstage ">
+                <div class="table-item-groupstage-text-name ">{{country.groupF.name}}</div>
+                <input class="table-item-groupstage-input-stance " type="number " min="1 " max="4 " data-ng-model="country.groupF.groupstance " />
             </div>
         </td>
     </tr>
