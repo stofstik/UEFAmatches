@@ -4,13 +4,7 @@ laurierboomApp.directive('lbGroupstageItem', function () {
             country: '=lbGroupstageItem'
         },
         restrict: 'EA',
-        templateUrl: '<td> < div > {
-            {
-                country.name
-            }
-        } < /div> < input type = "number"
-        min = 1 max = 4 / >
-        < /td>'
+        templateUrl: 'table-item-groupstage.html'
     };
 
 });
