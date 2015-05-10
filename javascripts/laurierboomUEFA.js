@@ -10,9 +10,9 @@ laurierboomApp.config(function ($routeProvider) {
             controller: 'MatchesController',
             templateUrl: 'partials/tournament.html'
         })
-        .when('/overview-groupfase', {
+        .when('/groupfase', {
             controller: 'MatchesController',
-            templateUrl: 'partials/overview-groupfase.html'
+            templateUrl: 'partials/groupfase.html'
         })
         .when('/eighthfinals', {
             controller: 'MatchesController',
