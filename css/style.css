@@ -37,6 +37,7 @@ nav ul li a {
 .table-header {
     color: white;
     background-color: darkgrey;
+    text-align: left;
 }
 
 .table-table-groupstage {

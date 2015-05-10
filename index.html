@@ -3,8 +3,9 @@
 <html data-ng-app="laurierboom-pool">
 
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -12,23 +13,46 @@
 <body>
 
     <header>
-        <h1>Café de Laurierboom voetbalpool</h1>
-        <nav>
-            <ul>
-                <li><a href="/#tournament">Toernooi</a>
-                </li>
-                <li><a href="/#overview-groupfase">Overzicht</a>
-                </li>
-                <li><a href="/#eighthfinals">Achtste finales</a>
-                </li>
-                <li><a href="/#quarterfinals">Kwart finales</a>
-                </li>
-                <li><a href="/#semifinals">Halve finales</a>
-                </li>
-                <li><a href="/#finals">Finale</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">Café de Laurierboom voetbalpool</a>
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse navHeaderCollapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/#tournament">Toernooi</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Overzicht <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <!-- make 'total' overview -->
+                                <li><a href="/#overview-groupfase">Alles</a>
+                                </li>
+                                <li><a href="/#overview-groupfase">Groepsfase</a>
+                                </li>
+                                <li><a href="/#overview-groupfase">Achtste finales</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/#eighthfinals">Achtste finales</a>
+                        </li>
+                        <li><a href="/#quarterfinals">Kwart finales</a>
+                        </li>
+                        <li><a href="/#semifinals">Halve finales</a>
+                        </li>
+                        <li><a href="/#finals">Finale</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
 
 
     </header>
@@ -39,11 +63,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <script src="https://code.angularjs.org/1.3.15/angular-route.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 <script src="javascripts/laurierboomUEFA.js"></script>
 <script src="javascripts/controllers.js"></script>
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
 </html>
