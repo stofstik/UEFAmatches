@@ -1,36 +1,19 @@
+<!DOCTYPE html>
 <html>
-<h3>Finale</h3>
-<table>
-    <tr>
-        <th>#</th>
-        <th>datum</th>
-        <th>tijd</th>
-        <th>plaats</th>
-        <th>thuis</th>
-        <th>uit</th>
-        <th>rust</th>
-        <th>eind</th>
-        <th>toto</th>
-    </tr>
-    <tr data-ng-repeat="match in final">
-        <td>{{match.num}}</td>
-        <td>{{match.date}}</td>
-        <td>{{match.time}}</td>
-        <td>{{match.venue}}</td>
-        <td>{{match.home}}</td>
-        <td>{{match.away}}</td>
-        <td>
-            <input type="number" min="0" max="99"></input> -
-            <input type="number" min="0" max="99"></input>
-        </td>
-        <td>
-            <input type="number" min="0" max="99"></input> -
-            <input type="number" min="0" max="99"></input>
-        </td>
-        <td>
-            <input type="number" min="1" max="3"></input>
-        </td>
-    </tr>
-</table>
+<div class="container-fluid">
+    <h2 class="table-header ">Finale</h2>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        51:
+        <div style="display:inline-block; vertical-align:middle ">
+            W49
+            <br /> W50
+        </div>
+        <div style="display:inline-block; vertical-align:middle; float:right; ">
+            <input type="text" />
+            <br />
+            <input type="text" />
+        </div>
+    </div>
+</div>
 
 </html>
