@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html>
-<div class="container-fluid">
-    <h2 class="table-header">Groepstanden</h2>
-    <div class="col-sm-6 col-md-4 col-lg-4">
-        <h4>Groep A:</h4>
-        <ul data-ng-repeat="country in groups.groupA">
-            <span class="stofstik-ellipses">{{country}}</span>
-            <input style="float:right" type="number" min="1" max="4" />
-        </ul>
+
+<section>
+    <div class="small-12 columns">
+        <h2>Groepstanden</h2>
+        <div class="small-12 medium-6 large-4 columns">
+            <div class="row">
+                <h4>Groep A:</h4>
+                <div class="small-12 columns" data-ng-repeat="country in groups.groupA">
+                    <div class="small-9 columns">{{country}}</div>
+                    <div class="small-3 columns">
+                        <input type="number" min="1" max="4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+            <div class="row">
+                <h4>Groep B:</h4>
+                <div class="small-12 columns" data-ng-repeat="country in groups.groupB">
+                    <div class="small-9 columns">{{country}}</div>
+                    <div class="small-3 columns">
+                        <input type="number" min="1" max="4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+            <div class="row">
+                <h4>Groep C:</h4>
+                <div class="small-12 columns" data-ng-repeat="country in groups.groupC">
+                    <div class="small-9 columns">{{country}}</div>
+                    <div class="small-3 columns">
+                        <input type="number" min="1" max="4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+            <div class="row">
+                <h4>Groep D:</h4>
+                <div class="small-12 columns" data-ng-repeat="country in groups.groupD">
+                    <div class="small-9 columns">{{country}}</div>
+                    <div class="small-3 columns">
+                        <input type="number" min="1" max="4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+            <div class="row">
+                <h4>Groep E:</h4>
+                <div class="small-12 columns" data-ng-repeat="country in groups.groupE">
+                    <div class="small-9 columns">{{country}}</div>
+                    <div class="small-3 columns">
+                        <input type="number" min="1" max="4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+            <div class="row">
+                <h4>Groep F:</h4>
+                <div class="small-12 columns" data-ng-repeat="country in groups.groupF">
+                    <div class="small-9 columns">{{country}}</div>
+                    <div class="small-3 columns">
+                        <input type="number" min="1" max="4" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-sm-6 col-md-4 col-lg-4">
-        <h4>Groep B:</h4>
-        <ul data-ng-repeat="country in groups.groupB">
-            <span class="stofstik-ellipses">{{country}}</span>
-            <input style="float:right" type="number" min="1" max="4" />
-        </ul>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4">
-        <h4>Groep C:</h4>
-        <ul data-ng-repeat="country in groups.groupC">
-            <span class="stofstik-ellipses">{{country}}</span>
-            <input style="float:right" type="number" min="1" max="4" />
-        </ul>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4">
-        <h4>Groep D:</h4>
-        <ul data-ng-repeat="country in groups.groupD">
-            <span class="stofstik-ellipses">{{country}}</span>
-            <input style="float:right" type="number" min="1" max="4" />
-        </ul>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4">
-        <h4>Groep E:</h4>
-        <ul data-ng-repeat="country in groups.groupE">
-            <span class="stofstik-ellipses">{{country}}</span>
-            <input style="float:right" type="number" min="1" max="4" />
-        </ul>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-4">
-        <h4>Groep F:</h4>
-        <ul data-ng-repeat="country in groups.groupF">
-            <span class="stofstik-ellipses">{{country}}</span>
-            <input style="float:right" type="number" min="1" max="4" />
-        </ul>
-    </div>
-</div>
+</section>
 
 </html>
