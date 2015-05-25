@@ -30,6 +30,10 @@ laurierboomApp.config(function ($routeProvider) {
             controller: 'MatchesController',
             templateUrl: 'partials/finals.html'
         })
+        .when('/misc', {
+            controller: 'MatchesController',
+            templateUrl: 'partials/misc.html'
+        })
         .otherwise({
             redirectTo: '/'
         });
